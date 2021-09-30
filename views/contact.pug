@@ -1,0 +1,14 @@
+extends base.pug
+block style1 
+    link(rel='stylesheet', href='./static/contact.css')
+block content 
+      section#from 
+          h1 Fill This From
+          div#from-continer   
+               <form method="post" id="from-two">
+                  input(type="text" name="name"    placeholder="Enter name")
+                  input(type="number" name="Phone" placeholder="Enter Phone")
+                  input(type="email"  name="email" placeholder="Enter Email")
+                  input(type="text" name="age" placeholder="Enter Age")
+                  input(type="text" name="dance" placeholder="Enter Dane Type")
+                  button#button Submit 

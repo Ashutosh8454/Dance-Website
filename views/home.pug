@@ -1,0 +1,26 @@
+extends base.pug
+block style1 
+    link(rel='stylesheet', href='./static/home.css')
+block content     
+  section#hero
+     div#hero-continer 
+         div#hero-text
+             h2 Wellcome To ADA 
+             p Ashutosh Dance Academy 
+
+  section#dance
+     div#dance-heading 
+         h2 Our Dance tutorial
+     div#dance-continer 
+         div.dance-card 
+             img(src="./static/img/hiphop.jpg", alt="")
+             div.dance-card-text
+                 p HipHop 
+         div.dance-card 
+             img(src="./static/img/litefit.jpg", alt="")
+             div.dance-card-text
+                 p Litefit
+         div.dance-card 
+             img(src="./static/img/popping.jpg", alt="")
+             div.dance-card-text
+                 p Popping 

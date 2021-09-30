@@ -1,0 +1,43 @@
+#from {}
+
+#from-continer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 64px;
+}
+
+#from-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 30%;
+    padding: 8px;
+    margin: 12px;
+    box-sizing: none;
+}
+
+input:hover {}
+
+#button {}
+
+h1 {
+    margin-top: 48px;
+    padding: 8px;
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 32px;
+}
+
+#button {
+    margin-top: 12px;
+    height: 30px;
+    width: 100px;
+    color: rgb(209, 222, 245);
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}

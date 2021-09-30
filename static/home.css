@@ -1,0 +1,97 @@
+#hero {
+    background: url("/static/img/background.jpg")no-repeat center center;
+    background-size: cover;
+    height: 380px;
+    opacity: 0.7;
+}
+
+#hero-continer {
+    display: flex;
+    flex-direction: column;
+}
+
+#hero-text {
+    display: flex;
+    margin-top: 120px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-continer h2 {
+    color: white;
+    font-size: 54px;
+}
+
+#hero-continer p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+
+/* dance-card-section */
+
+#dance {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 64px;
+}
+
+#dance-heading {
+    background-color: black;
+    padding: 16px 20px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+#dance-heading h2 {
+    color: white;
+    font-size: 32px;
+}
+
+#dance-continer {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    /* background-color: #525050; */
+}
+
+.dance-card {
+    /* border: 2px solid red; */
+    width: 350px;
+    height: 250px;
+    /* background-color: brown; */
+    padding: 16px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 0px;
+    border-radius: 12px;
+}
+
+.dance-card img {
+    height: 220px;
+    border-radius: 12px;
+}
+
+.dance-card-text {
+    display: flex;
+    background-color: black;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.dance-card-text p {
+    color: white;
+    font-size: 24px;
+}

@@ -1,0 +1,24 @@
+html
+  head
+    title Ashutosh Dance Academy
+    block scripts
+      script(src='../static/base.js')
+    block style 
+      link(rel='stylesheet', href='./static/base.css')
+    block style1
+  body
+    div#nav 
+        ul
+         div#logo 
+           img(src="/static/img/logo.png", alt="")
+           p ADA
+
+         li #[a(href="/") Home]
+         li #[a(href="/about") About]
+         li #[a(href="/service") Service]
+         li #[a(href="/classInfo") Class Info]
+         li #[a(href="/contact") Contact Us]
+    block content
+    block foot 
+       div#footer 
+         p copyright©2021 ADA.com |All right reserved 

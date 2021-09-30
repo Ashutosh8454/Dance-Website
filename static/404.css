@@ -1,0 +1,13 @@
+#allcontiner {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: rgba(255, 99, 71, 0.363);
+}
+
+#allcontiner h1 {
+    font-size: 350px;
+    color: white;
+}
